@@ -10,7 +10,7 @@ const useStyle = makeStyles((theme) => ({
     },
 }));
 
-const UserPhoto = ({}) => {
+const UserPhoto = () => {
     const classes = useStyle();
 
   return (
