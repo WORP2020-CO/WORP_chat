@@ -8,6 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
+import UserPhoto from './UserPhoto';
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -62,6 +64,7 @@ export default function SignIn({ setName }) {
         <Typography component="h1" variant="h5">
           ようこそ
         </Typography>
+        <UserPhoto />
         <form className={classes.form} noValidate>
           <TextField
             variant="outlined"
