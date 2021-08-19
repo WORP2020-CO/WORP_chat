@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./FirebaseLoginStyle.scss";
+import classes from "./FirebaseLoginStyle.css";
 
 const FirebaseLogin = () => {
     return (
