@@ -1,4 +1,8 @@
-.root .login {
+html {
+  background-color: aquamarine;
+}
+
+html .root .login {
   color: red;
   font-size: 20px;
 }
